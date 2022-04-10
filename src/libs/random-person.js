@@ -19,7 +19,7 @@ function randomPerson() {
   const age = randomIntBetween(18, 65);
   const color = randomColor();
 
-  return { name, color };
+  return { name, color, age };
 }
 
 export default randomPerson;
