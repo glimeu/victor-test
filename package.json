@@ -1,0 +1,15 @@
+{
+  "name": "victor-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "NODE_OPTIONS='--experimental-vm-modules --no-warnings' jest --no-cache",
+    "test:watch": "NODE_OPTIONS='--experimental-vm-modules --no-warnings' jest --no-cache --watch",
+    "test:coverage": "NODE_OPTIONS='--experimental-vm-modules --no-warnings' jest --no-cache --coverage __tests__"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
