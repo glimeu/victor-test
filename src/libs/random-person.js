@@ -8,7 +8,6 @@ import { randomColor, randomIntBetween, randomString } from '../utils';
  * @property {number} age
  * @property {string} color
  */
-
 /**
  * Generate a random person object.
  *
@@ -19,7 +18,7 @@ function randomPerson() {
   const age = randomIntBetween(18, 65);
   const color = randomColor();
 
-  return { name, color };
+  return { name, color, age };
 }
 
 export default randomPerson;
