@@ -9,5 +9,4 @@ function randomColor() {
 }
 
 
-
 export default randomColor;
