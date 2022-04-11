@@ -8,7 +8,6 @@ import { randomColor, randomIntBetween, randomString } from '../utils';
  * @property {number} age
  * @property {string} color
  */
-
 /**
  * Generate a random person object.
  *
